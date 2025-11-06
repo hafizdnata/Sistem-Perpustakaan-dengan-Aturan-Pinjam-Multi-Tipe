@@ -12,7 +12,7 @@ Pembagian Tugas Kelompok
 +-------------+-------------------------------------------------------------+
 | Anggota     | Tugas dan Tanggung Jawab                                   |
 +-------------+-------------------------------------------------------------+
-| hafizh      | Arsitek dan core Item classes (Item, Book, Magazine, DVD,  |
+| hafizh, Khansa| Arsitek dan core Item classes (Item, Book, Magazine, DVD,  |
 |             | clone, operator).                                          |
 +-------------+-------------------------------------------------------------+
 | Dionisius   | Member management dan level rules (Member class,           |
