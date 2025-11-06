@@ -15,13 +15,13 @@ Pembagian Tugas Kelompok
 | hafizh      | Arsitek dan core Item classes (Item, Book, Magazine, DVD,  |
 |             | clone, operator).                                          |
 +-------------+-------------------------------------------------------------+
-| Dionisyus   | Member management dan level rules (Member class,           |
+| Dionisius   | Member management dan level rules (Member class,           |
 |             | borrow/return overload).                                   |
 +-------------+-------------------------------------------------------------+
-| Octavia     | Catalogue dan persistence (search, sort, clone koleksi,    |
+|Octavia,Khansa| Catalogue dan persistence (search, sort, clone koleksi,    |
 |             | save/load sederhana).                                      |
 +-------------+-------------------------------------------------------------+
-| Khansa      | CLI / orchestrator (menu, input handling, integrasi).      |
+|      Judhis | CLI / orchestrator (menu, input handling, integrasi).      |
 +-------------+-------------------------------------------------------------+
 
 -----------------------------------------------------
