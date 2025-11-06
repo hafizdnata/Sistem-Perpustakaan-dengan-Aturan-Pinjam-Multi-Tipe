@@ -21,7 +21,7 @@ Pembagian Tugas Kelompok
 | Octavia     | Catalogue dan persistence (search, sort, clone koleksi,    |
 |             | save/load sederhana).                                      |
 +-------------+-------------------------------------------------------------+
-| Zahra       | CLI / orchestrator (menu, input handling, integrasi).      |
+| Khansa      | CLI / orchestrator (menu, input handling, integrasi).      |
 +-------------+-------------------------------------------------------------+
 
 -----------------------------------------------------
