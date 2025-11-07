@@ -1,0 +1,134 @@
+====================================
+TESTCASE 1: Inisialisasi katalog
+====================================
+> Program otomatis memanggil initializeCatalogue()
+Output:
+Data awal katalog berhasil dimuat.
+
+====================================
+TESTCASE 2: Registrasi Member Baru
+====================================
+Input:
+2
+M001
+Andi
+
+Output:
+Register New Member
+Enter Member ID: M001
+Enter Name: Andi
+Member registered.
+
+====================================
+TESTCASE 3: Peminjaman Buku Normal
+====================================
+Input:
+3
+M001
+B001
+7
+n
+
+Output:
+Borrow Item
+Enter Member ID: M001
+Enter Item ID: B001
+Enter Days to Borrow: 7
+Use credit? (y/n): n
+Andi meminjam The Great Gatsby selama 7 hari.
+
+====================================
+TESTCASE 4: Pengembalian Buku Tepat Waktu
+====================================
+Input:
+4
+M001
+B001
+7
+
+Output:
+Return Item
+Enter Member ID: M001
+Enter Item ID: B001
+Enter Actual Borrowed Days: 7
+Andi mengembalikan The Great Gatsby | Telat 0 hari | Denda Rp 0
+
+====================================
+TESTCASE 5: Peminjaman Melebihi Batas Hari
+====================================
+Input:
+3
+M001
+B002
+10
+n
+
+Output:
+Borrow Item
+Enter Member ID: M001
+Enter Item ID: B002
+Enter Days to Borrow: 10
+Melebihi batas maksimum pinjam (3 hari).
+
+====================================
+TESTCASE 6: Peminjaman & Penggunaan Credit
+====================================
+(Simulasikan member sudah level 1 dan punya credit)
+Input:
+3
+M001
+M001
+B001
+5
+y
+
+Output:
+Borrow Item
+Enter Member ID: M001
+Enter Item ID: B001
+Enter Days to Borrow: 5
+Use credit? (y/n): y
+Andi menggunakan free credit untuk pinjam.
+Andi meminjam The Great Gatsby selama 5 hari.
+
+====================================
+TESTCASE 7: Pengembalian DVD Rusak & Telat
+====================================
+Input:
+4
+M001
+D001
+6
+y
+
+Output:
+Return Item
+Enter Member ID: M001
+Enter Item ID: D001
+Enter Actual Borrowed Days: 6
+Is the DVD damaged? (y/n): y
+Andi mengembalikan Inception | Telat 3 hari | Rusak | Denda Rp 56000
+
+====================================
+TESTCASE 8: Upgrade Level Member
+====================================
+(Simulasikan meminjam beberapa kali sampai totalLoans >= 10)
+Output:
+Setiap kali pinjam bertambah totalLoans.
+Ketika totalLoans mencapai 10:
+Level member meningkat menjadi Level 2
+Mendapat tambahan 3 Free Credits.
+
+====================================
+TESTCASE 9: Laporan Bulanan
+====================================
+Input:
+7
+
+Output:
+Monthly Report
+Books borrowed: 2
+Magazines borrowed: 0
+DVDs borrowed: 1
+Total Fine Collected: Rp 56000
+Total Free Credits Used: 1
